@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rifat.com</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f172a;
+    font-family:Arial, sans-serif;
+    color:white;
+}
+
+/* Navbar */
+
+nav{
+    width:100%;
+    padding:20px;
+    background:#111827;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+/* Hero Section */
+
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:60px;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:600px;
+    line-height:35px;
+    margin-bottom:30px;
+}
+
+.hero button{
+    padding:15px 35px;
+    border:none;
+    border-radius:10px;
+    background:#38bdf8;
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* About */
+
+.about{
+    padding:80px 20px;
+    text-align:center;
+    background:#1e293b;
+}
+
+.about h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#38bdf8;
+}
+
+.about p{
+    font-size:20px;
+    line-height:35px;
+    max-width:700px;
+    margin:auto;
+}
+
+/* Footer */
+
+footer{
+    padding:25px;
+    text-align:center;
+    background:#111827;
+    font-size:18px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav>
+
+<div class="logo">
+Rifat.com
+</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+
+</nav>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<h1>AK RIFAT</h1>
+
+<p>
+Welcome to my official website.
+I am a Graphic Designer, Content Creator and Future Web Developer.
+</p>
+
+<button>Explore Now</button>
+
+</section>
+
+<!-- About Section -->
+
+<section class="about">
+
+<h2>About Me</h2>
+
+<p>
+আমার নাম আবুল কালাম রিফাত। 
+আমি গ্রাফিক ডিজাইন, ইউটিউব কনটেন্ট এবং ওয়েব ডিজাইন শিখছি।
+এটা আমার নিজের তৈরি ওয়েবসাইট।
+</p>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+© 2026 Rifat.com | All Rights Reserved
+
+</footer>
+
+</body>
+</html>
